@@ -16,7 +16,7 @@ const SideBar = (props: Props) => {
         <Paragraph type="secondary" fontSize={16}>
           PauloVieira28
         </Paragraph>
-        <Description type="main" fontSize={12}>
+        <Description type="main" fontSize={14}>
           Engenheiro Full Stack
         </Description>
         <ThemedButton onClick={props.themeChange}>Trocar tema</ThemedButton>

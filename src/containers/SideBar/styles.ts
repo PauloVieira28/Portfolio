@@ -13,6 +13,12 @@ export const ThemedButton = styled.button`
   font-weight: bold;
   background-color: ${(props) => props.theme.mainColor};
   cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  &:hover {
+    background-color: ${(props) => props.theme.backgroundColorThemeButtonHover};
+  }
 `
 
 export const SidebarContainer = styled.div`

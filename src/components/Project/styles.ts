@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import themedDark from '../../themes/dark'
 
 export const Card = styled.div`
   border: 1px solid ${(props) => props.theme.borderColor};
@@ -15,4 +14,11 @@ export const LinkBotton = styled.a`
   display: inline-block;
   margin-top: 24px;
   cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+
+  &:hover {
+    background-color: ${(props) => props.theme.backgroundColorButtonHover};
+  }
 `

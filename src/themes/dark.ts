@@ -4,7 +4,9 @@ const themedDark = {
   backgroundColor: '#282a35',
   backgroundColorButton: '#fff',
   borderColor: '#c1c1c1',
-  buttonColor: '#031838ff'
+  buttonColor: '#0c2c5dff',
+  backgroundColorButtonHover: '#9a9595ff',
+  backgroundColorThemeButtonHover: '#9a9595ff'
 }
 
 export default themedDark
@@ -16,4 +18,6 @@ export type Theme = {
   backgroundColorButton: string
   borderColor: string
   buttonColor: string
+  backgroundColorButtonHover: string
+  backgroundColorThemeButtonHover: string
 }
